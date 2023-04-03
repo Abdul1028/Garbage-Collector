@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin"
+    android:background="@drawable/appback">
+
+
+    <Button
+        android:id="@+id/reqbtn"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:background="@color/lightgreen"
+        android:text="View Request"
+        android:textColor="@color/darkgreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.076" />
+
+    <Button
+        android:id="@+id/addlocbtn"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:background="@color/lightgreen"
+        android:text="Add location"
+        android:textColor="@color/darkgreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reqbtn"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <Button
+        android:id="@+id/remlocbtn"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:background="@color/lightgreen"
+        android:text="Remove location"
+        android:textColor="@color/darkgreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addlocbtn"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <Button
+        android:id="@+id/addcol"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:background="@color/lightgreen"
+        android:text="Add collector"
+        android:textColor="@color/darkgreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/remlocbtn"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="179dp"
+        android:layout_height="50dp"
+        android:background="@color/lightgreen"
+        android:text="Log Out"
+        android:textColor="@color/darkgreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addcol"
+        app:layout_constraintVertical_bias="0.086" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

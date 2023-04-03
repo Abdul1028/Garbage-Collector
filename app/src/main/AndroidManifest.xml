@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GarbageCollector"
+        tools:targetApi="31">
+        <activity
+            android:name=".complaint_status"
+            android:exported="false" />
+        <activity
+            android:name=".complaintform"
+            android:exported="false" />
+        <activity
+            android:name=".form"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".Splash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyB77dktZZYNTI-ECL3Mlpo9de6CF6cF5Cg" />
+
+        <activity
+            android:name=".showlocation"
+            android:exported="false" />
+
+        <activity
+            android:name=".homepage"
+            android:label="@string/app_name"
+            android:exported="true">
+
+        </activity>
+
+
+
+
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".addcollector"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".addresslist"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".admin"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".navigation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".raisereq"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".removelocation"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Signup"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".status"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".user"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".userpage"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Viewrequest"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

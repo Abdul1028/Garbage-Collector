@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_data"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardMaxElevation="12dp"
+    android:backgroundTint="@color/lightgreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+
+        <!--Textview for displaying our Course Name-->
+
+
+        <!--Textview for displaying our Course Duration-->
+
+
+        <!--Textview for displaying our Course Description-->
+
+
+        <TextView
+            android:id="@+id/getPlace"
+            android:layout_width="390dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:text="Indira nagar Opposite Amul factory Mulund"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/getName"
+            android:layout_width="390dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="5px"
+            android:text="Abdul Rasool Abdul qudddus shaikh"
+            android:visibility="visible"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.167"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/getPlace" />
+
+        <TextView
+            android:id="@+id/getComplaint"
+            android:layout_width="390dp"
+            android:layout_height="39dp"
+            android:text="Garbage at ruia stinks a lot please come up and do he needfull thinh"
+            android:textSize="15sp"
+            android:visibility="visible"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:layout_marginTop="20dp"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="111dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

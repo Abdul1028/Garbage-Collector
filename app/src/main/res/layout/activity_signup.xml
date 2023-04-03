@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:background="@drawable/appback">
+
+    <EditText
+        android:id="@+id/namebox"
+        android:layout_width="334dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        android:drawableLeft="@drawable/baseline_person_outline_24"
+        android:hint="Name"
+        android:textColor="@color/darkgreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.062"></EditText>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+
+        android:gravity="center"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:textColor="@color/darkgreen"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13999999"></TextView>
+
+
+    <EditText
+        android:id="@+id/emailbox"
+        android:layout_width="334dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        android:drawableLeft="@drawable/baseline_person_outline_24"
+        android:hint="Email"
+
+        android:text=""
+        android:textColor="@color/darkgreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.17"></EditText>
+
+    <EditText
+        android:id="@+id/passwordbox"
+        android:layout_width="334dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        android:drawableLeft="@drawable/baseline_vpn_key_24"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/darkgreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.263"></EditText>
+
+    <EditText
+        android:id="@+id/confirmbox"
+        android:layout_width="334dp"
+        android:layout_height="44dp"
+        android:background="@color/green"
+        android:drawableLeft="@drawable/baseline_vpn_key_24"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="@color/darkgreen"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.356"></EditText>
+
+    <Button
+        android:id="@+id/createbtn"
+        android:layout_width="203dp"
+        android:layout_height="53dp"
+        android:background="@color/darkgreen"
+        android:text="Create account"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmbox"
+        app:layout_constraintVertical_bias="0.141"></Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
